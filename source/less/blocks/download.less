@@ -1,0 +1,126 @@
+@media (min-width: @dextop-width) {
+  .download__background {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 471px;
+    background-color: linear-gradient(
+      90deg,
+      rgba(253, 113, 44, 1) 0%,
+      rgba(243, 31, 121, 1) 100%
+    );
+  }
+
+  .download__headline {
+    font-family: Dosisregular;
+    font-size: 36px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 126px;
+  }
+
+  .download__text {
+    font-family: DosisSemi;
+    font-size: 30px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 9px;
+  }
+
+  .download__app {
+    font-family: RobotoLight;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+  }
+
+  .download__play {
+    font-family: RobotoLight;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+  }
+
+  .download__microsoft {
+    font-family: RobotoLight;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+  }
+
+  .download__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .download__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 115px;
+    border-radius: 3px;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-top: 3px;
+    padding: 33px 10px 10px 128px;
+  }
+
+  .download__item a {
+    text-decoration: none;
+  }
+
+  .download__windows {
+    position: relative;
+  }
+
+  .download__windows::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/WindowsIcon.svg);
+    width: 89px;
+    height: 89px;
+    right: 212px;
+    top: -10px;
+  }
+
+  .download__android {
+    position: relative;
+  }
+
+  .download__android::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/AndroidIcon.svg);
+    width: 82px;
+    height: 89px;
+    right: 190px;
+    top: -14px;
+  }
+
+  .download__apple {
+    position: relative;
+  }
+
+  .download__apple::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/MacIcon.svg);
+    width: 80px;
+    height: 89px;
+    right: 195px;
+    top: -9px;
+  }
+}

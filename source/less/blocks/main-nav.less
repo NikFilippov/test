@@ -1,0 +1,253 @@
+@media (min-width: @dextop-width) {
+  .main-nav__background {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/iPhones.png);
+    background-repeat: no-repeat;
+    background-position: 98% 149px;
+  }
+
+  .page-header__background {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/background-header.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: linear-gradient(
+      90deg,
+      rgba(253, 113, 44, 1) 0%,
+      rgba(243, 31, 121, 1) 100%
+    );
+  }
+
+  .main-nav_headline {
+    font-family: DosisSemi;
+    font-size: 54px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 23px;
+  }
+
+  .main-nav_logo-name {
+    font-family: Dosis;
+    font-size: 36px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .main-nav_text {
+    font-family: RobotoLight;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: normal;
+  }
+
+  .main-nav_form-list {
+    list-style: none;
+    padding: 0;
+    padding-left: 34px;
+  }
+
+  .main-nav_form-item-text {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: normal;
+  }
+
+  .main-nav_start {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: normal;
+    width: 192px;
+    height: 40px;
+    border: solid 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 3px;
+  }
+
+  .main-nav_logo {
+    display: inline-block;
+    width: 165px;
+    height: 75px;
+    vertical-align: top;
+  }
+
+  .main-nav__section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-bottom: 217px;
+  }
+
+  .main-nav_checbox-bar {
+    width: 490px;
+    margin-top: 106px;
+  }
+
+  .main-nav_unlimited {
+    display: none;
+  }
+
+  .main-nav_fully {
+    display: none;
+  }
+
+  .main-nav_veryeasy {
+    display: none;
+  }
+
+  .fmain-nav_unlimited--check {
+    position: relative;
+  }
+
+  .fmain-nav_unlimited--check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    left: -35px;
+    top: 1px;
+  }
+
+  .main-nav_form-list
+    input[type="radio"]:checked
+    + .fmain-nav_unlimited--check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #fc763f;
+    border-left: 3px solid #fc763f;
+    left: -32px;
+    top: 4px;
+    z-index: 2;
+  }
+
+  .fmain-nav_fully--check {
+    position: relative;
+  }
+
+  .fmain-nav_fully--check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    left: -35px;
+    top: 1px;
+  }
+
+  .main-nav_form-list
+    input[type="radio"]:checked
+    + .fmain-nav_fully--check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #fc763f;
+    border-left: 3px solid #fc763f;
+    left: -32px;
+    top: 4px;
+    z-index: 2;
+  }
+
+  .fmain-nav_veryeasy--check {
+    position: relative;
+  }
+
+  .fmain-nav_veryeasy--check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    left: -35px;
+    top: 1px;
+  }
+
+  .main-nav_form-list
+    input[type="radio"]:checked
+    + .fmain-nav_veryeasy--check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #fc763f;
+    border-left: 3px solid #fc763f;
+    left: -32px;
+    top: 4px;
+    z-index: 2;
+  }
+
+  .main-nav_home {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-right: 54px;
+  }
+
+  .main-nav_features {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-right: 54px;
+  }
+
+  .main-nav_pricing {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-right: 54px;
+  }
+
+  .main-nav_list {
+    list-style: none;
+    display: flex;
+    margin-left: 536px;
+    margin-top: 10px;
+    width: 417px;
+    padding: 0;
+  }
+
+  .main-nav_download {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 34px;
+    color: #222222;
+    font-weight: normal;
+    margin-left: -12px;
+    width: 153px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+}

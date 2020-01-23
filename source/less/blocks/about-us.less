@@ -1,0 +1,151 @@
+@media (min-width: @dextop-width) {
+  .about-us_title {
+    font-family: Dosismedium;
+    font-size: 36px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: normal;
+  }
+
+  .about-us_text-one {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+    margin-bottom: 67px;
+  }
+
+  .about-us_text-two {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+    margin-bottom: 28px;
+  }
+
+  .about-us_form-list {
+    list-style: none;
+  }
+
+  .about-us_form-text {
+    font-size: 14px;
+    line-height: 32px;
+    color: #777777;
+    font-weight: normal;
+  }
+
+  .about-us__wrapper {
+    width: 555px;
+  }
+
+  .about-us__background {
+    background-image: url(../img/iPhone.png);
+    background-repeat: no-repeat;
+    background-position: 591% 65px;
+    height: 874px;
+    padding-top: 226px;
+    padding-left: 584px;
+  }
+
+  .about-us_unlimited {
+    display: none;
+  }
+
+  .about-us_fully {
+    display: none;
+  }
+
+  .about-us_veryeasy {
+    display: none;
+  }
+
+  .about-us__unlimited-check {
+    position: relative;
+  }
+
+  .about-us__unlimited-check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #030303;
+    width: 15px;
+    height: 15px;
+    left: -39px;
+    top: 1px;
+  }
+
+  .about-us_item
+    input[type="radio"]:checked
+    + .about-us__unlimited-check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    left: -36px;
+    top: 3px;
+    z-index: 2;
+  }
+
+  .about-us_fully-check {
+    position: relative;
+  }
+
+  .about-us_fully-check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #030303;
+    width: 15px;
+    height: 15px;
+    left: -39px;
+    top: 1px;
+  }
+
+  .about-us_form-list
+    input[type="radio"]:checked
+    + .about-us_fully-check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    left: -35px;
+    top: 3px;
+    z-index: 2;
+  }
+
+  .about-us_veryeasy-check {
+    position: relative;
+  }
+
+  .about-us_veryeasy-check::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid #030303;
+    width: 15px;
+    height: 15px;
+    left: -39px;
+    top: 1px;
+  }
+
+  .about-us_form-list
+    input[type="radio"]:checked
+    + .about-us_veryeasy-check::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    left: -36px;
+    top: 3px;
+    z-index: 2;
+  }
+}

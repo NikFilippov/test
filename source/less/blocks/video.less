@@ -1,0 +1,40 @@
+@media (min-width: @dextop-width) {
+  .video__background {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    margin-top: 117px;
+  }
+
+  .video__wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+  }
+
+  .video__wrapper::after {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-image: url(../img/BG-1.svg);
+    background-repeat: no-repeat;
+    top: 160px;
+    left: 943px;
+  }
+
+  .video__wrapper::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    background-image: url(../img/PlayIcon.svg);
+    background-repeat: no-repeat;
+    top: 186px;
+    left: 970px;
+    z-index: 2;
+  }
+}
